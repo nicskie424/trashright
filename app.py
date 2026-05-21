@@ -64,8 +64,7 @@ def init_db():
         conn.commit()
 
 
-def _like_escape(value: str) -> str:
-    return value.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
 
 
 
